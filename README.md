@@ -1,4 +1,4 @@
-### My Game Project
+# My Game Project
 
 ## Game Flow
 - Choose if you have saved games
