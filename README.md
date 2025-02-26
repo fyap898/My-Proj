@@ -4,6 +4,7 @@
 - Choose if you have saved games
 - Pick a hero(If new game selected)
 - Level-based(Increase attributes every level)
+- Trying to make it endless level, attributes everything
 - Equipments
 
 ## Hero Classes
