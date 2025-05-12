@@ -1,5 +1,18 @@
 # My Game Project
 
+## Table of Contents
+- [Language used](#language-used)
+- [Game Flow](#game-flow)
+- [Hero Classes](#hero-classes)
+- [Hero Properties](#hero-properties)
+- [Equipment Classes](#equipment-classes)
+- [Equipment Tiers](#equipment-tiers)
+- [Enemies Classes](#enemies-classes)
+- [Files](#files)
+
+## Language used
+- C++ (for now)
+
 ## Game Flow
 - Choose if you have saved games
 - Pick a hero(If new game selected)
@@ -39,22 +52,23 @@
 - High Physical and Magic Defense
 - Lowest Movement Speed
 
-## Equipment Classes
+## Item Classes
 - Movement
 - Physical Dmg
 - Magical Dmg
 - Defenses(Regen, Phys, Magic)
 
-## Equipment Tiers
-Lowest: 4 dec. place  
-- Common(90-100%)
-- Rare(80-89%)
-- Super-Rare(70-79%)
-- Super-Super-Rare(60-69%)
-- Ultra-Rare(40-59%)
-- Epic(10-19%)
-- Legendary(0.1-1%)
-- Mythical(0.001-0.0001%)
+## Item Type
+
+## Item Tiers & Drop Rate
+Lowest: 2 dec. place  
+- Common(50.49%)
+- Rare(20.0%)
+- Super-Rare(15.0%)
+- Ultra-Rare(10.0%)
+- Epic(4.0%)
+- Legendary(0.5%)
+- Mythical(0.01%)
 
 ## Enemies Classes
 - Melee
@@ -63,3 +77,18 @@ Lowest: 4 dec. place
 - Tank
 - Beast
 - Boss
+
+
+## Files
+**main**
+Main executable file  
+
+**menu**
+Handles menu display  
+
+**types**
+Defines constants  
+
+**files**
+Handles file system like Writing on a file or Reading a file, Save in a file or Load from files
+
