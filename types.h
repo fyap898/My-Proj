@@ -26,6 +26,16 @@ using namespace std;
 #define CyanBack "\033[46m"
 #define WhiteBack "\033[47m"
 
+//Hero initial attribute values
+#define initHP 500
+#define initPDmg 50
+#define initMDmg 50
+#define initSpd 5
+#define initReg 25
+#define initPDef 30
+#define initMDef 30
+
+
 // Item Tier Enum
 enum ItemTier{
     Common,
